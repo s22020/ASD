@@ -11,12 +11,12 @@ Czas wykonania algorytmów mierzony jest w sekundach. Algorytmy wykonują się n
 ##### Opis zachowania algorytmów
 Heap sort - w najlepszym, przeciętnym i najgorszym przypadku złożoności czasowej algorytm działa tak samo, niezależnie od rozkładu danych w tablicy, czyli wykonuje się w czasie nlogn.
 
-Quicksort - algorytm ten działa na zasadzie “dziel i zwyciężaj” z relacją rekurencji:
-T(n) = T(k) + T(n-k-1) + cn
-W najlepszym i przeciętnym przypadku złożoności czasowej, algorytm wykonuje się w czasie O(nlogn), w najgorszym przypadku złożoności czasowej, czyli w sytuacji, w której tablica posiada dane posortowane lub odwrotnie posortowane, algorytm dzieli tablicę na dwie mniejsze:
-T(n) = T(0) - T(n-1) + cn
-Co daje czas wykonania algorytmu:
-T(n) = O(n^2)
+Quicksort - algorytm ten działa na zasadzie “dziel i zwyciężaj” z relacją rekurencji:__
+T(n) = T(k) + T(n-k-1) + cn__
+W najlepszym i przeciętnym przypadku złożoności czasowej, algorytm wykonuje się w czasie O(nlogn), w najgorszym przypadku złożoności czasowej, czyli w sytuacji, w której tablica posiada dane posortowane lub odwrotnie posortowane, algorytm dzieli tablicę na dwie mniejsze:__
+T(n) = T(0) - T(n-1) + cn__
+Co daje czas wykonania algorytmu:__
+T(n) = O(n^2)__
 
 Merge sort - w najlepszym, przeciętnym i najgorszym przypadku złożoności czasowej algorytm działa tak samo, niezależnie od rozkładu danych w tablicy, czyli wykonuje się w czasie nlogn.
 
